@@ -70,7 +70,7 @@ let size = "";
 
 switch (typeId) {
   case "01":
-    type = "Wife Beater";
+    type = "Wife-Beater";
     break;
   case "02":
     type = "T-Shirt";
