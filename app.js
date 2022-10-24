@@ -61,7 +61,7 @@ switch (birthMonth) {
 //Exercise 3
 
 let typeId = "01";
-let colorId = "PU";
+let colorId = "BL";
 let sizeId = "L";
 
 let type = "";
@@ -86,33 +86,33 @@ switch (typeId) {
 }
 
 switch (colorId) {
-  case "BK || bk":
+  case "BK":
     color = "Black";
     break;
-  case "BL || bl":
+  case "BL":
     color = "Blue";
     break;
-  case "RD || rd":
+  case "RD":
     color = "Red";
     break;
-  case "PR || pr":
+  case "PR":
     color = "Purple";
     break;
-  case "WH || wh":
+  case "WH":
     color = "White";
 }
 
 switch (sizeId) {
-  case "S || s":
+  case "S":
     size = "Small";
     break;
-  case "M || m":
+  case "M":
     size = "Medium";
     break;
-  case "L || l":
+  case "L":
     size = "Large";
     break;
-  case "XL || xl":
+  case "XL":
     size = "Extra Large";
     break;
   default:
